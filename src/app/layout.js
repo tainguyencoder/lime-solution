@@ -40,8 +40,8 @@ const alex = Alex_Brush({
 
 
 export const metadata = {
-  title: 'Techwind - Next Js Multipurpose Landing & Admin Dashboard Template',
-  description: 'Techwind - Next Js Multipurpose Landing & Admin Dashboard Template',
+  title: 'Lime Solution Co Ltd',
+  description: 'Lime Solution Co Ltd',
 }
 
 export default function RootLayout({ children }) {

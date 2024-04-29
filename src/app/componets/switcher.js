@@ -6,7 +6,7 @@ import { animateScroll as scroll } from 'react-scroll';
 import {HiOutlineMoon,HiOutlineSun,HiArrowSmUp} from 'react-icons/hi'
 
 export default function Switcher() {
-    const [scrollToTops, setScrollToTops] = useState(false); 
+    const [scrollToTops, setScrollToTops] = useState(false);
     useEffect(()=>{
         function scrollHandler() {
             setScrollToTops(window.scrollY >= 500)
@@ -20,7 +20,7 @@ export default function Switcher() {
             window.removeEventListener('scroll', scrollHandler);
         };
     },[])
-      
+
       const scrollToTop = () => {
           scroll.scrollToTop({
               duration: 500,
@@ -62,16 +62,16 @@ export default function Switcher() {
                 </span>
             </div>
 
-            <div className="fixed top-[40%] -right-3 z-50">
+            {/* <div className="fixed top-[40%] -right-3 z-50">
                 <Link href="#" id="switchRtl" className="cursor-pointer">
                     <span className="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold rtl:block ltr:hidden" onClick={(event) => changeMode('layout', event)}>LTR</span>
                     <span className="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold ltr:block rtl:hidden" onClick={(event) => changeMode('layout', event)}>RTL</span>
                 </Link>
-            </div>
+            </div> */}
 
             <Link href="#" onClick={scrollToTop}
                 id="back-to-top" className={`${!scrollToTops ? "hidden":"back-to-top fixed  text-lg rounded-full z-10 bottom-5 end-2 size-9 text-center bg-indigo-600 text-white leading-9 flex items-center justify-center"}`}><HiArrowSmUp /></Link>
-         
+
         </>
     )
 };

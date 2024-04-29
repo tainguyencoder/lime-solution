@@ -8,10 +8,10 @@ import { usePathname } from 'next/navigation'
 export default function Navbar(props) {
     let { navClass, navJustify } = props;
     let [isMenu, setisMenu] = useState(false);
-    
+
     let [manu , setManu] = useState('');
     let pathname = usePathname();
-    
+
     useEffect(()=>{
         setManu(pathname)
 
@@ -37,7 +37,7 @@ export default function Navbar(props) {
         };
 
     },[setManu])
-    
+
 
     const toggleMenu = () => {
         setisMenu(!isMenu);
@@ -64,7 +64,7 @@ export default function Navbar(props) {
         <div className="container relative">
             {
                 navClass === "nav-light" ?
-                    <Link className="logo" href="/index">
+                    <Link className="logo" href="/">
                         <span className="inline-block dark:hidden">
                             <Image src='/images/logo-dark.png' className="l-dark" width={138} height={24}  alt="" />
                             <Image src='/images/logo-light.png' className="l-light" width={138} height={24} alt="" />
@@ -72,7 +72,7 @@ export default function Navbar(props) {
                         <Image src='/images/logo-light.png' width={138} height={24} className="hidden dark:inline-block" alt="" />
                     </Link>
                     :
-                    <Link className="logo" href="/index">
+                    <Link className="logo" href="/">
                         <Image src='/images/logo-dark.png' width={138} height={24} className="inline-block dark:hidden" alt="" />
                         <Image src='/images/logo-light.png' width={138} height={24} className="hidden dark:inline-block" alt="" />
                     </Link>
@@ -90,7 +90,7 @@ export default function Navbar(props) {
                 </div>
             </div>
 
-            {
+            {/* {
                 navClass !== 'nav-light' ? <ul className={`buy-button list-none space-x-1 mb-0`} >
                         <li className="inline mb-0">
                             <Link href="#" className="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600/5 hover:bg-indigo-600 border border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"><LuSettings className="size-4" /></Link>
@@ -99,7 +99,7 @@ export default function Navbar(props) {
                         <li className="inline ps-1 mb-0">
                             <Link href="https://1.envato.market/techwind-next" target="_blank" className="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white"><BsCart3 className="size-4" /></Link>
                         </li>
-                        
+
                     </ul>
                     :
                     <ul className="buy-button list-none space-x-1 mb-0">
@@ -109,7 +109,7 @@ export default function Navbar(props) {
                             <span className="login-btn-light"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 border hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><LuSettings className="size-4" /></span></span>
                         </Link>
                     </li>
-            
+
                     <li className="inline ps-1 mb-0">
                         <Link href="https://1.envato.market/techwind-next" target="_blank">
                             <div className="login-btn-primary"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white"><BsCart3 className="size-4" /></span></div>
@@ -117,9 +117,9 @@ export default function Navbar(props) {
                         </Link>
                     </li>
                 </ul>
-            }
-           
-            <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
+            } */}
+
+            {/* <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                 <ul className={`navigation-menu ${navClass} ${navJustify}`}>
                     <li className={manu === "/" || "" ? "active" : ""}><Link href="/" className="sub-menu-item">Home</Link></li>
 
@@ -442,18 +442,9 @@ export default function Navbar(props) {
                         </ul>
                     </li>
 
-                    <li className={`${["/ui-components", "/documentation","/changelog"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
-                        <Link href="#">Docs</Link><span className="menu-arrow"></span>
-                        <ul className="submenu">
-                            <li className={manu === "/ui-components" || "" ? "active" : ""}><Link href="/ui-components" className="sub-menu-item">Components</Link></li>
-                            <li className={manu === "/documentation" || "" ? "active" : ""}><Link href="/documentation" className="sub-menu-item">Documentation</Link></li>
-                            <li className={manu === "/changelog" || "" ? "active" : ""}><Link href="/changelog" className="sub-menu-item">Changelog</Link></li>
-                        </ul>
-                    </li>
-
                     <li className={manu === "/contact-one" || "" ? "active" : ""}><Link href="/contact-one" className="sub-menu-item">Contact</Link></li>
                 </ul>
-            </div>
+            </div> */}
         </div >
     </nav >
     )

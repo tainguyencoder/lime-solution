@@ -9,7 +9,7 @@ export const aboutServices = [
         description: `" If the distribution of letters and words is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "`,
     },
     {
-        image: "/images/client/google.svg",            
+        image: "/images/client/google.svg",
         name: 'Carl Oliver',
         description: `" If the distribution of letters and words is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "`,
 
@@ -20,7 +20,7 @@ export const aboutServices = [
         description: `" If the distribution of letters and words is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "`,
     },
     {
-        image: "/images/client/paypal.svg",            
+        image: "/images/client/paypal.svg",
         name: 'Jill Webb',
         description: `" If the distribution of letters and words is random, the reader will not be distracted from making a neutral judgement on the visual impact and readability of the typefaces (typography), or the distribution of text on the page consists of a more or less random series of words or syllables. "`,
     },
@@ -102,7 +102,7 @@ export const masonryData = [
         desc:'The phrasal sequence of the is now so that many campaign and benefit',
         category:'tech',
         date:'29th Dec 2023'
-    }, 
+    },
      {
         id:4,
         image:"/images/blog/11.jpg",
@@ -580,22 +580,22 @@ export const podcastData = [
 export const projectData = [
     {
         image:"/images/portfolio/1.jpg",
-        name:"Mockup Collection", 
+        name:"Mockup Collection",
         title:"Abstract"
     },
     {
-        image:"/images/portfolio/2.jpg", 
-        name:"Mockup Collection", 
+        image:"/images/portfolio/2.jpg",
+        name:"Mockup Collection",
         title:"Abstract"
     },
     {
-        image:"/images/portfolio/3.jpg", 
-        name:"Mockup Collection", 
+        image:"/images/portfolio/3.jpg",
+        name:"Mockup Collection",
         title:"Abstract"
     },
     {
-        image:"/images/portfolio/4.jpg", 
-        name:"Mockup Collection", 
+        image:"/images/portfolio/4.jpg",
+        name:"Mockup Collection",
         title:"Abstract"
     },
 ]
@@ -606,7 +606,7 @@ export const userProfile = ["/images/portfolio/1.jpg","/images/portfolio/2.jpg",
 export const portfolio =[
     {
         id:0,
-        category: 'branding',  
+        category: 'branding',
         image: "/images/portfolio/10.jpg",
 
     },
@@ -623,12 +623,12 @@ export const portfolio =[
     },
     {
         id:3,
-        category: 'branding',  
+        category: 'branding',
         image: "/images/portfolio/13.jpg",
     },
     {
         id:4,
-        category: 'branding',  
+        category: 'branding',
         image: "/images/portfolio/6.jpg",
 
     },
@@ -659,7 +659,7 @@ export const portfolio =[
     },
     {
         id:10,
-        category: 'branding',  
+        category: 'branding',
         image: "/images/portfolio/1.jpg",
     },
     {
@@ -1066,19 +1066,22 @@ export const contactData = [
      icon:FiPhone,
      title:"Phone",
      desc:"The phrasal sequence of the is now so that many campaign and benefit",
-     contact:"+152 534-468-854"
+     contact:"+84 942121996",
+     ref:"tel: +84942121996"
     },
     {
      icon: FaRegEnvelope,
      title:"Email",
      desc:"The phrasal sequence of the is now so that many campaign and benefit",
-     contact:"contact@example.com"
+     contact:"hr@limesolution.com",
+     ref:"mailto:taikool2121996@gmail.com"
     },
     {
      icon:RiMapPinLine,
      title:"Location",
      desc:"The phrasal sequence of the is now so that many campaign and benefit",
-     contact:"View on Google map"
+     contact:"View on Google map",
+     ref:"https://maps.app.goo.gl/fFdZG248rZkADWm4A"
     }
  ]
 export const courseDetail = [
