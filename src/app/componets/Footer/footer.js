@@ -128,12 +128,11 @@ export default function Footer() {
                     <div className="container relative text-center">
                         <div className="grid md:grid-cols-2 items-center">
                             <div className="md:text-start text-center">
-                                <p className="mb-0">© {new Date().getFullYear()} Lime Solution. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/" target="_blank" className="text-reset">Lime Solution</Link>.</p>
+                                <p className="mb-0">© {new Date().getFullYear()} Lime Solution. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by Lime Solution</p>
                             </div>
 
                             <ul className="list-none md:text-end text-center space-x-1 mt-6 md:mt-0">
                                 <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/american-ex.png" className="max-h-6 inline" title="American Express" alt="" /></Link></li>
-                                <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/discover.png" className="max-h-6 inline" title="Discover" alt="" /></Link></li>
                                 <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/master-card.png" className="max-h-6 inline" title="Master Card" alt="" /></Link></li>
                                 <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/paypal.png" className="max-h-6 inline" title="Paypal" alt="" /></Link></li>
                                 <li className="inline"><Link href="#"><Image width={35} height={24} src="/images/payments/visa.png" className="max-h-6 inline" title="Visa" alt="" /></Link></li>
