@@ -40,14 +40,7 @@ export default function Coworking(){
                     <h3 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 mt-10 text-white">Lime Solution <br/> Vietnam&apos;s Leading Technology Partner</h3>
 
                     <p className="text-slate-300 text-lg max-w-2xl mx-auto">One of the top IT firms in Vietnam, Lime Solution focuses on offering software solutions and consulting services for digital transformation to local enterprises in the retail, healthcare, and financial industries. as well as international</p>
-{/*
-                    <div className="subcribe-form z-1 mt-8">
-                        <form className="relative mx-auto max-w-xl">
-                            <Icon.MapPin className="w-5 h-5 absolute top-[48%] -translate-y-1/2 start-4"></Icon.MapPin>
-                            <input type="text" id="search_name" name="name" className="pt-4 pe-40 pb-4 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 ps-12" placeholder="Washington, D.C." />
-                            <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">Find A Space</button>
-                        </form>
-                    </div> */}
+
                 </div>
             </div>
         </section>
@@ -63,12 +56,12 @@ export default function Coworking(){
 
                     <div className="md:col-span-6">
                         <div className="lg:me-5">
-                            <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">Our History</h6>
-                            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">“Sweet as the Moment When <br /> the coworking Went Pop”</h3>
+                            <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">Our Mission</h6>
+                            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">“Want to make  <br /> your life better?”</h3>
 
-                            <p className="text-slate-400 max-w-xl mb-6">Get instant helpful resources about anything on the go, easily implement secure money transfer solutions, boost your daily efficiency, connect to other app users and create your own Techwind network, and much more with just a few taps. commodo consequat. Duis aute irure.</p>
+                            <p className="text-slate-400 max-w-xl mb-6">We bring a very simple message. Customers trust us because we are here to handle your technology needs and technology solutions to ensure that you can focus your attention on the needs of your business. Technology is advancing at a phenomenal rate, our company is constantly researching and developing new ideas and exploring innovative solutions to make the impossible possible and ensure that business your career can perform at its best.</p>
 
-                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white rounded-full">Get Started</Link>
+                            <Link href="/contact" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white rounded-full">Connect</Link>
                         </div>
                     </div>
                 </div>

@@ -1066,15 +1066,15 @@ export const contactData = [
      icon:FiPhone,
      title:"Phone",
      desc:"The phrasal sequence of the is now so that many campaign and benefit",
-     contact:"+84 942121996",
-     ref:"tel: +84942121996"
+     contact:"+84 999999999",
+     ref:"tel: +84999999999"
     },
     {
      icon: FaRegEnvelope,
      title:"Email",
      desc:"The phrasal sequence of the is now so that many campaign and benefit",
-     contact:"hr@limesolution.com",
-     ref:"mailto:taikool2121996@gmail.com"
+     contact:"hr@limesolutionco.com",
+     ref:"mailto:hr@limesolutionco.com"
     },
     {
      icon:RiMapPinLine,

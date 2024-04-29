@@ -10,7 +10,7 @@ export default function KeyFeature({btnFill}){
             <div className="grid grid-cols-1 pb-8 text-center">
                 <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Key Features</h3>
 
-                <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                <p className="text-slate-400 max-w-xl mx-auto">Lime Solution offers tailored technology solutions designed for your business needs, including software development, cloud migration, and IoT integration, ensuring innovation and efficiency at every step.</p>
             </div>
 
             <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px] mt-8">
