@@ -40,8 +40,8 @@ const alex = Alex_Brush({
 
 
 export const metadata = {
-  title: 'Lime Solution Co Ltd',
-  description: 'Lime Solution Co Ltd',
+  title: 'Lime Solution',
+  description: 'Lime Solution',
 }
 
 export default function RootLayout({ children }) {

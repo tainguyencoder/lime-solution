@@ -42,44 +42,25 @@ export default function Footer() {
     const footerCompany = [
         {
             liClass: '',
-            route: '/page-aboutus',
+            route: '/about-us',
             title: 'About us',
         },
         {
-            liClass: 'mt-[10px]',
-            route: '/page-services',
+            route: '/services',
             title: 'Services',
-
-        },
-        {
-            route: '/page-team',
-            title: 'Team',
             liClass: 'mt-[10px]',
 
         },
         {
-            route: '/page-pricing',
-            title: 'Pricing',
+            route: '/careers',
+            title: 'Careers',
             liClass: 'mt-[10px]',
 
         },
         {
-            route: '/portfolio-creative-four',
-            title: 'Project',
+            route: '/contact',
+            title: 'Contact',
             liClass: 'mt-[10px]',
-
-        },
-        {
-            route: '/blog',
-            title: 'Blog',
-            liClass: 'mt-[10px]',
-
-        },
-        {
-            route: '/auth-login',
-            title: 'Login',
-            liClass: 'mt-[10px]',
-
         }
     ]
     return (
@@ -112,14 +93,14 @@ export default function Footer() {
                                         </ul>
                                     </div>
 
-                                    <div className="lg:col-span-3 md:col-span-4">
+                                    {/* <div className="lg:col-span-3 md:col-span-4">
                                         <h5 className="tracking-[1px] text-gray-100 font-semibold">Usefull Links</h5>
                                         <ul className="list-none footer-list mt-6">
                                             {footerLinks.map((data, index) => (
                                                 <li key={index} className={data.liClass}><Link href={data.route} className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="text-xl me-1"/> {data.title}</Link></li>
                                             ))}
                                         </ul>
-                                    </div>
+                                    </div> */}
 
                                     <div className="lg:col-span-3 md:col-span-4">
                                         <h5 className="tracking-[1px] text-gray-100 font-semibold">Newsletter</h5>
@@ -147,7 +128,7 @@ export default function Footer() {
                     <div className="container relative text-center">
                         <div className="grid md:grid-cols-2 items-center">
                             <div className="md:text-start text-center">
-                                <p className="mb-0">© {new Date().getFullYear()} Limesolution. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/" target="_blank" className="text-reset">Limesolution</Link>.</p>
+                                <p className="mb-0">© {new Date().getFullYear()} Lime Solution. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/" target="_blank" className="text-reset">Lime Solution</Link>.</p>
                             </div>
 
                             <ul className="list-none md:text-end text-center space-x-1 mt-6 md:mt-0">

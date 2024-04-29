@@ -32,7 +32,7 @@ export default function KeyFeature({btnFill}){
             </div>
             {btnFill ?  <div className="grid grid-cols-1 justify-center">
                 <div className="mt-6 text-center">
-                    <Link href="/page-services" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2">See More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
+                    <Link href="/services" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2">See More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                 </div>
             </div> :
             <div className="grid grid-cols-1 justify-center">
@@ -41,7 +41,7 @@ export default function KeyFeature({btnFill}){
                 </div>
             </div>
             }
-           
+
 
         </div>
     )

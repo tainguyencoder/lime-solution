@@ -14,7 +14,7 @@ export default function VideoModal(){
                 <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
             </Link>
         </div>
-        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="S_CGed6E610" onClose={() => setOpen(false)} />
+        <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="-m3b9u_x438" onClose={() => setOpen(false)} />
         </>
     )
 }

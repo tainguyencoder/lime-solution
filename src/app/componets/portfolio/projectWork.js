@@ -31,15 +31,15 @@ export default function ProjectWork(){
             1025: {
                 items: 6
             },
-    
+
             992: {
                 items: 4
             },
-    
+
             767: {
                 items: 3
             },
-    
+
             320: {
                 items: 1
             },
@@ -51,7 +51,7 @@ export default function ProjectWork(){
     let handleMovePrev = () => {
         setCurrentImageIndex((prevIndex) => (prevIndex + portfolioImageTwo.length - 1) % portfolioImageTwo.length);
     };
-  
+
     let handleMoveNext = () => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % portfolioImageTwo.length);
     };
@@ -67,11 +67,11 @@ export default function ProjectWork(){
                     return (
                         <div className="tiny-slide" key={index}>
                             <div className="group relative block overflow-hidden rounded-md transition-all duration-500 mx-2">
-                                <Link href="#" onClick={() => handleImageClick(index)} scroll={false} className="lightbox transition-all duration-500 group-hover:scale-105" title="">
+                                <div onClick={() => handleImageClick(index)} scroll={false} className="lightbox transition-all duration-500 group-hover:scale-105" title="">
                                     <Image src={item.image} className="" alt="" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} />
-                                </Link>
+                                </div>
                                 <div className="absolute -bottom-52 group-hover:bottom-2 start-2 end-2 transition-all duration-500 bg-white dark:bg-slate-900 p-4 rounded shadow dark:shadow-gray-800">
-                                    <Link href="/portfolio-detail-two" className="hover:text-indigo-600 text-lg transition duration-500 font-medium">{item.name}</Link>
+                                    <div className="hover:text-indigo-600 text-lg transition duration-500 font-medium">{item.name}</div>
                                     <h6 className="text-slate-400">{item.role}</h6>
                                 </div>
                             </div>
