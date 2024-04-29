@@ -46,9 +46,9 @@ export default function ContactOne() {
         'template_jfqelnt',
         {
           from_name: form.name,
-          to_name: 'Taikool2121996',
+          to_name: 'Lime Solution',
           from_email: form.email,
-          to_email: 'taikool2121996@gmail.com',
+          to_email: 'hr@limesolutionco.com',
           subject: form.subject,
           message: form.message,
         },
