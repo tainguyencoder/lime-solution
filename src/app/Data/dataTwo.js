@@ -184,18 +184,18 @@ export const coWorkServices = [
         role: 'Co-space'
     },
     {
-        iamge: "/images/cowork/4.jpg",
+        iamge: "/images/cowork/1.jpg",
         name: 'Floating Seat',
         role: 'Co-space'
     },
     {
-        iamge: "/images/cowork/5.jpg",
+        iamge: "/images/cowork/2.jpg",
         name: 'Startups Desk',
         role: 'Co-space'
     },
     {
-        iamge: "/images/cowork/6.jpg",
-        name: 'Retail Space',
+        iamge: "/images/cowork/3.jpg",
+        name: 'Startups Desk',
         role: 'Co-space'
     }
 ]
