@@ -1,7 +1,7 @@
 {
-  "name": "techwind",
+  "name": "limesolutionco",
   "version": "2.2.0",
-  "description": "Next Js Multipurpose Landing & Admin Dashboard Template",
+  "description": "limesolutionco.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
