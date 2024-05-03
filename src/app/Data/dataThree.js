@@ -1135,8 +1135,8 @@ export const servicesData = [
 export const servicesTwo = [
   {
     icon: FiAirplay,
-    title: 'UX / UI Design',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+    title: 'Digital Transformation Consulting',
+    desc: 'In the digital era, success hinges on bold vision and impeccable execution. We provide comprehensive assistance. Our expert teams collaborate closely with you to create, build, and grow innovative digital enterprises. With skills in design, development, data science, engineering, and business, we leverage diverse experience to ensure your success in the digital world.',
   },
   {
     icon: MdApi,
