@@ -15,8 +15,9 @@ import Contact from './componets/co-working/contact';
 
 import * as Icon from 'react-feather';
 
-import { MdKeyboardArrowRight } from './assets/icons/icons';
+import { MdKeyboardArrowRight, BsCheckCircle } from './assets/icons/icons';
 import { coworkAbout } from './Data/dataThree';
+import { referenceData } from './Data/data';
 
 export default function Coworking() {
   return (
@@ -54,7 +55,7 @@ export default function Coworking() {
               One of the top IT firms in Vietnam, Lime Solution focuses on
               offering software solutions and consulting services for digital
               transformation to local enterprises in the retail, healthcare, and
-              financial industries. as well as international
+              financial industries, as well as international.
             </p>
           </div>
         </div>
@@ -62,6 +63,49 @@ export default function Coworking() {
 
       <section className="relative md:py-24 py-16">
         <div className="container relative">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+            <div className="relative order-1 md:order-2">
+              <Image
+                src="/images/saas/classic03.png"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: 'auto' }}
+                className="rounded-lg shadow-md dark:shadow-gray-800"
+                alt=""
+              />
+              <div className="overflow-hidden absolute lg:size-[400px] size-[320px] bg-indigo-600/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>
+            </div>
+
+            <div className="lg:me-8 order-2 md:order-1">
+              <h4 className="mb-4 text-2xl leading-normal font-medium">
+                Be the change you want to see in the world
+              </h4>
+              <p className="text-slate-400">
+                Lime Technologies Ltd is an IT outsourcing Company in VietNam
+                that was founded on April 17th, 2016, with the vision of
+                becoming one of the top IT service providers in Vietnam. We have
+                always pursued the mission of elevating and connecting
+                Vietnamese IT engineers to international clients, hence
+                contributing to affirming Vietnam&apos;s position on the
+                world&apos;s technology map.
+                <br />
+                Aiming at providing a comprehensive service offering system,
+                Lime Technologies Ltd brings more value and high-quality work to
+                our customers. With Lime Technologies Ltd, we specialize in
+                providing software solutions & consulting, implementing digital
+                transformation for a series of domestic and foreign businesses.
+                <br />
+                After 7 years of operation, with the spirit of ”challenge the
+                challenges” and endless energy, Lime Technologies Ltd has always
+                been working tirelessly to expand our reach and our resources.
+                We set the target of becoming a global IT firm with 1000
+                headcounts and a leading IT Company in the ASEAN region in 2030.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="container relative md:mt-24 mt-16">
           <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
             <div className="md:col-span-6">
               <div className="lg:me-8">
@@ -106,7 +150,7 @@ export default function Coworking() {
             </div>
           </div>
         </div>
-
+        {/*
         <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-8 text-center">
             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
@@ -149,9 +193,9 @@ export default function Coworking() {
               );
             })}
           </div>
-        </div>
+        </div> */}
 
-        <div className="container relative md:mt-24 mt-16">
+        {/* <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-8 text-center">
             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
               We provide Different types of office
@@ -163,12 +207,83 @@ export default function Coworking() {
             </p>
           </div>
         </div>
-        <Office />
+        <Office /> */}
+        <div className="container relative md:mt-24 mt-16">
+          <div className="grid grid-cols-1 pb-8 text-center">
+            <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
+              Reference
+            </h3>
+          </div>
+          <div className="grid md:grid-cols-12 grid-cols-1 mt-6 gap-[30px]">
+            {referenceData.slice(0, 2).map((item, index) => {
+              return (
+                <div key={index} className="lg:col-span-6 md:col-span-6">
+                  <div className="team p-6 rounded-md border border-gray-100 dark:border-gray-700 group bg-white dark:bg-slate-900">
+                    <Image
+                      src={item.image}
+                      width={96}
+                      height={96}
+                      className="size-24 rounded-full shadow-md dark:shadow-gray-800"
+                      alt=""
+                    />
+
+                    <div className="content mt-4">
+                      <Link
+                        href="#"
+                        className="text-lg font-medium hover:text-indigo-600 block"
+                      >
+                        {item.name}
+                      </Link>
+                      <span className="text-slate-400 block">{item.title}</span>
+
+                      <p className="text-slate-400 mt-4">{item.desc}</p>
+
+                      <ul className="list-none mt-4 space-x-1">
+                        <li className="inline">
+                          <Link
+                            href="#"
+                            className="size-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"
+                          >
+                            <Icon.Facebook className="size-4"></Icon.Facebook>
+                          </Link>
+                        </li>
+                        <li className="inline">
+                          <Link
+                            href="#"
+                            className="size-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"
+                          >
+                            <Icon.Instagram className="size-4"></Icon.Instagram>
+                          </Link>
+                        </li>
+                        <li className="inline">
+                          <Link
+                            href="#"
+                            className="size-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"
+                          >
+                            <Icon.Twitter className="size-4"></Icon.Twitter>
+                          </Link>
+                        </li>
+                        <li className="inline">
+                          <Link
+                            href="#"
+                            className="size-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"
+                          >
+                            <Icon.Linkedin className="size-4"></Icon.Linkedin>
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </section>
 
-      <section className="realtive md:py-24 py-16">
+      {/* <section className="realtive md:py-24 py-16">
         <WorkingTab />
-      </section>
+      </section> */}
 
       <Footer />
       <Switcher />

@@ -1,4 +1,5 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -6,7 +7,7 @@ import Navbar from '../componets/Navbar/navbar';
 import JobFooter from '../componets/jobFooter';
 import Switcher from '../componets/switcher';
 
-import { jobData } from '../Data/data';
+import { jobOpeningData } from '../Data/dataTwo';
 
 import {
   MdKeyboardArrowRight,
@@ -16,6 +17,15 @@ import {
 } from '../assets/icons/icons';
 
 export default function Careers() {
+  let [activeIndex, setActiveIndex] = useState(0);
+
+  const toggleAccordion = (index) => {
+    if (activeIndex === index) {
+      setActiveIndex(0);
+    } else {
+      setActiveIndex(index);
+    }
+  };
   return (
     <>
       <Navbar navClass="nav-light" />
@@ -71,60 +81,79 @@ export default function Careers() {
         </div>
       </div>
 
-      <section className="relative md:py-24 py-16">
+      <section className="relative md:py-20 py-12">
         <div className="container relative">
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
-            {jobData.map((item, index) => {
-              return (
-                <div
-                  className="rounded-md shadow dark:shadow-gray-800"
-                  key={index}
-                >
-                  <div className="p-6">
-                    <Link
-                      href="/contact"
-                      className="title h5 text-lg font-semibold hover:text-indigo-600"
+          <div className="grid grid-cols-1 pb-3 text-center">
+            <h3 className="md:text-[26px] md:leading-normal text-2xl leading-normal font-semibold">
+              Job Openings
+            </h3>
+          </div>
+
+          <div className="lg:flex justify-center ">
+            <div className="lg:w-3/4">
+              <div
+                id="accordion-collapse"
+                data-accordion="collapse"
+                className="grid grid-cols-1 mt-8 md:gap-[30px]"
+              >
+                <div>
+                  {jobOpeningData.map((item, index) => (
+                    <div
+                      key={index}
+                      className="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4"
                     >
-                      {item.title}
-                    </Link>
-                    <p className="text-slate-400 mt-2 flex items-center">
-                      <GoClock className="me-1 text-indigo-600" />
-                      {item.posted}
-                    </p>
-
-                    <div className="flex justify-between items-center mt-4">
-                      <span className="bg-indigo-600/5 text-indigo-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">
-                        {item.jobTitle}
-                      </span>
-
-                      <p className="text-slate-400 flex">
-                        <AiOutlineDollar className="me-1 text-lg text-indigo-600" />
-                        {item.package}
-                      </p>
+                      <h2
+                        className="text-base font-semibold"
+                        id="accordion-collapse-heading-1"
+                      >
+                        <button
+                          type="button"
+                          onClick={() => toggleAccordion(item.id)}
+                          className={`flex justify-between items-center p-5 w-full font-medium text-start ${
+                            activeIndex === item.id
+                              ? 'bg-gray-50 dark:bg-slate-800 text-indigo-600'
+                              : ''
+                          }`}
+                          data-accordion-target="#accordion-collapse-body-1"
+                          aria-expanded="true"
+                          aria-controls="accordion-collapse-body-1"
+                        >
+                          <span>{item.title}</span>
+                          <svg
+                            data-accordion-icon
+                            className={`${
+                              activeIndex === item.id
+                                ? 'rotate-180'
+                                : 'rotate-270'
+                            } size-4 shrink-01`}
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clipRule="evenodd"
+                            ></path>
+                          </svg>
+                        </button>
+                      </h2>
+                      {activeIndex === item.id && (
+                        <ul className='list-outside'>
+                          {item.requirements.map((require, index) => (
+                            <li key={index}>
+                              <p className="text-slate-400 dark:text-gray-400 pl-4 pt-3 md:pt-2">
+                                {require}
+                              </p>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
                     </div>
-                  </div>
-
-                  <div className="flex items-center p-6 border-t border-gray-100 dark:border-gray-700">
-                    <Image
-                      src={item.image}
-                      width={48}
-                      height={48}
-                      className="size-12 shadow-md dark:shadow-gray-800 rounded-md p-2 bg-white dark:bg-slate-900"
-                      alt=""
-                    />
-
-                    <div className="ms-3">
-                      <h6 className="mb-0 font-semibold text-base">
-                        {item.name}
-                      </h6>
-                      <span className="text-slate-400 text-sm">
-                        {item.location}
-                      </span>
-                    </div>
-                  </div>
+                  ))}
                 </div>
-              );
-            })}
+              </div>
+            </div>
           </div>
         </div>
       </section>

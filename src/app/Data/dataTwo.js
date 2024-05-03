@@ -78,6 +78,49 @@ export const accordionData = [
         content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
     }
 ]
+export const jobOpeningData = [
+    {
+        id: 1,
+        title: 'Java Developer',
+        requirements: ["Responsibilities","Planning, designing, debugging, and coding software solutions for Java application development","Develop Java-based software using industry best practices"],
+    },
+    {
+        id: 2,
+        title: 'DQC Engineer',
+        requirements: ["Responsibilities", "Planning, designing, debugging, and coding software solutions for Java application development", "Develop Java-based software using industry best practices"],
+
+    },
+    {
+        id: 3,
+        title: '.Net Developer',
+        requirements: ["Responsibilities", "Planning, designing, debugging, and coding software solutions for Java application development", "Develop Java-based software using industry best practices"],
+    },
+    {
+        id: 4,
+        title: 'Data Analyst',
+        requirements: ["Responsibilities", "Planning, designing, debugging, and coding software solutions for Java application development", "Develop Java-based software using industry best practices"],
+    },
+    {
+        id: 5,
+        title: 'Scrum Master',
+        requirements: ["Responsibilities", "Planning, designing, debugging, and coding software solutions for Java application development", "Develop Java-based software using industry best practices"],
+    },
+    {
+        id: 6,
+        title: 'Business Analyst',
+        requirements: ["Responsibilities", "Planning, designing, debugging, and coding software solutions for Java application development", "Develop Java-based software using industry best practices"],
+    },
+    {
+        id: 7,
+        title: 'Frontend Developer ',
+        requirements: ["Responsibilities", "Planning, designing, debugging, and coding software solutions for Java application development", "Develop Java-based software using industry best practices"],
+    },
+    {
+        id: 8,
+        title: 'UI/UX Designer',
+        requirements: ["Responsibilities", "Planning, designing, debugging, and coding software solutions for Java application development", "Develop Java-based software using industry best practices"],
+    }
+]
 export const masonryData = [
     {
         id:1,
