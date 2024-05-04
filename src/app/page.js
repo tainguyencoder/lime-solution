@@ -82,13 +82,14 @@ export default function Coworking() {
 
             <div className="lg:me-8 order-2 md:order-1">
               <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5 text-black dark:text-white">
-                be{' '}
-                <span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-indigo-600 after:from-green-600 relative">
-                  THE CHANGE
+                Be{' '}
+                <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-red-600/20 relative bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text animate-gradient">
+                  the change
                 </span>{' '}
-                <br /> you{' '}
-                <span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-indigo-600 after:from-green-600 relative">
-                  WANT
+                <br />
+                you{' '}
+                <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-red-600/20 relative bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text animate-gradient">
+                  want
                 </span>{' '}
                 to see in the world
               </h4>
@@ -137,7 +138,7 @@ export default function Coworking() {
                   Our Mission
                 </h6>
                 <div className="md:me-6">
-                  <ul className="list-none mb-0 text-amber-400 text-xl space-x-1">
+                  {/* <ul className="list-none mb-0 text-amber-400 text-xl space-x-1">
                     <li className="inline">
                       <i className="mdi mdi-star"></i>
                     </li>
@@ -153,10 +154,12 @@ export default function Coworking() {
                     <li className="inline">
                       <i className="mdi mdi-star"></i>
                     </li>
-                  </ul>
-                  <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white">
-                    Want to make your{' '}
-                    <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-indigo-600/20 relative text-indigo-600">
+                  </ul> */}
+                  <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5 text-black dark:text-white">
+                    Want to make
+                    <br />
+                    your{' '}
+                    <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-red-600/20 relative bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text animate-gradient">
                       life better
                     </span>{' '}
                     ?

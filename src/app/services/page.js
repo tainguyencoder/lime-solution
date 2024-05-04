@@ -28,23 +28,39 @@ export default function Services() {
   return (
     <>
       <Navbar navClass="nav-light" />
-      <section className="relative table w-full py-36 lg:py-44 bg-no-repeat bg-center bg-cover" style={{backgroundImage:"url('/images/services.jpg')"}}>
-            <div className="absolute inset-0 bg-black opacity-75"></div>
-            <div className="container relative">
-                <div className="grid grid-cols-1 pb-8 text-center mt-10">
-                    <h5 className="text-white/50 text-lg font-medium">What We Offer ?</h5>
-                    <h3 className="mt-2 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Our Services</h3>
-                </div>
-            </div>
+      <section
+        className="relative table w-full py-36 lg:py-44 bg-no-repeat bg-center bg-cover"
+        style={{ backgroundImage: "url('/images/services.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-black opacity-75"></div>
+        <div className="container relative">
+          <div className="grid grid-cols-1 pb-8 text-center mt-10">
+            <h5 className="text-white/50 text-lg font-medium">
+              What We Offer ?
+            </h5>
+            <h3 className="mt-2 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">
+              Our Services
+            </h3>
+          </div>
+        </div>
 
-            <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
-                <ul className=" tracking-[0.5px]  mb-0 inline-flex mx-auto space-x-1">
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Lime Solution</Link></li>
-                    <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Services</li>
-                </ul>
-            </div>
-        </section>
+        <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
+          <ul className=" tracking-[0.5px]  mb-0 inline-flex mx-auto space-x-1">
+            <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white">
+              <Link href="/about-us">Lime Solution</Link>
+            </li>
+            <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180">
+              <MdKeyboardArrowRight className="text-xl" />
+            </li>
+            <li
+              className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white"
+              aria-current="page"
+            >
+              Services
+            </li>
+          </ul>
+        </div>
+      </section>
 
       <div className="relative">
         <div className="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden z-1 text-white dark:text-slate-900">
@@ -145,6 +161,23 @@ export default function Services() {
             <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text">
               Our Services
             </h4>
+            <ul className="list-none mb-0 bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text text-xl space-x-1">
+              <li className="inline">
+                <i className="mdi mdi-star"></i>
+              </li>
+              <li className="inline">
+                <i className="mdi mdi-star"></i>
+              </li>
+              <li className="inline">
+                <i className="mdi mdi-star"></i>
+              </li>
+              <li className="inline">
+                <i className="mdi mdi-star"></i>
+              </li>
+              <li className="inline">
+                <i className="mdi mdi-star"></i>
+              </li>
+            </ul>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-[30px]">
             {servicesTwo.map((item, index) => {
@@ -177,7 +210,7 @@ export default function Services() {
       <section className="relative md:py-24 py-16">
         <div className="container relative">
           <div className="grid grid-cols-1 pb-8 text-center">
-          <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text">
+            <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text">
               Domains
             </h4>
           </div>

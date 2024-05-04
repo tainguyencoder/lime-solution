@@ -103,130 +103,142 @@ export const jobOpeningData = [
   {
     id: 1,
     title: 'Java Developer',
-    requirements: [
-      'Responsibilities',
+    responsibilities: [
       'Planning, designing, debugging, and coding software solutions for Java application development',
       'Develop Java-based software using industry best practices',
       'Provide technical support to software users. Troubleshoot problems with the software',
       'Collaborate with software engineers to ensure that code is of the highest quality',
-      'Preferred Skills and Qualifications',
+    ],
+    skills: [
       'Minimum of 5 years of experience in Java development',
       'In-depth knowledge of website design and programming',
       'Knowledge of hardware and operating systems (Unix-based systems a plus)',
       'Understanding of relational databases (Oracle, SQL Server, DB2)',
-    ],
+    ]
   },
   {
     id: 2,
     title: 'DQC Engineer',
-    requirements: [
-      'Responsibilities',
+    responsibilities: [
       'Review and analyze requirements, specifications, and technical design documents, providing timely feedback',
       'Develop detailed, comprehensive, and well-structured test plans and test cases',
       'Prioritize and plan testing activities',
       'Identify and report issues found, then verify that issues are resolved',
-      'Preferred Skills and Qualifications',
+    ],
+    skills: [
       'Proven work experience in software quality assurance',
       'Strong knowledge of software QA methodologies, tools, and processes',
       'Hands-on experience with automated testing tools',
       'A keen eye for detail and a commitment to excellence',
-    ],
+    ]
   },
   {
     id: 3,
     title: '.Net Developer',
-    requirements: [
-      'Responsibilities',
+    responsibilities: [
       'Translate application storyboards and use cases into functional applications',
       'Design, build, and maintain efficient, reusable, and reliable code',
       'Integrate data storage solutions',
       'Identify bottlenecks and bugs, and devise solutions to mitigate and address these issues',
-      'Preferred Skills and Qualifications',
+    ],
+    skills: [
       'Strong knowledge of the .NET web framework',
       'Proficient in C# and/or VB.NET, with a good knowledge of their ecosystems',
       'Familiarity with the Mono framework, Microsoft SQL Server',
       'Strong understanding of object-oriented programming',
-    ],
+    ]
   },
   {
     id: 4,
     title: 'Data Analyst',
     requirements: [
-      'Responsibilities',
+      'responsibilities',
       'Understanding the business requirements to formulate the problems to solve and restrict the slice of data to be explored.',
       'Collecting data from various sources.',
       'Performing cleansing, processing, and validation on the data subject to analyze, to ensure its quality.',
       'Exploring and visualizing data.',
-      'Preferred Skills and Qualifications',
+      'Preferred skills and Qualifications',
       'Experience solving problems in the project’s business domain.',
       'Experience with data integration from multiple sources.',
       'Proficiency in at least one query language, especially SQL.',
       'Experience with NoSQL databases, such as MongoDB and Cassandra.',
     ],
+    responsibilities: [
+      'Understanding the business requirements to formulate the problems to solve and restrict the slice of data to be explored.',
+      'Collecting data from various sources.',
+      'Performing cleansing, processing, and validation on the data subject to analyze, to ensure its quality.',
+      'Exploring and visualizing data.',
+    ],
+    skills: [
+      'Experience solving problems in the project’s business domain.',
+      'Experience with data integration from multiple sources.',
+      'Proficiency in at least one query language, especially SQL.',
+      'Experience with NoSQL databases, such as MongoDB and Cassandra.',
+    ]
   },
   {
     id: 5,
     title: 'Scrum Master',
-    requirements: [
-      'Responsibilities',
+    responsibilities: [
       'Facilitating Agile ceremonies, including sprint planning, daily stand-ups, and retrospectives.',
       'Managing project scope and timelines',
       'Tracking and reporting team progress and sprint performance',
       'Facilitating communication and collaboration between teams and stakeholders',
-      'Preferred Skills and Qualifications',
+    ],
+    skills: [
       'You have demonstrable experience as a Scrum master',
       'You possess strong knowledge of the Scrum framework as well as other Agile frameworks such as Kanban, Crystal, XP, etc.',
       'A Scrum Master certification (CSM) would be a strong plus',
       'You have JIRA/Confluence experience',
-    ],
+    ]
   },
   {
     id: 6,
     title: 'Business Analyst',
-    requirements: [
-      'Responsibilities',
+    responsibilities: [
       'Partner with stakeholders across business units (ex: sales, finance, security, compliance) to develop analyses and documentation in a collaborative way',
       'Communicating effectively and efficiently with production, managerial, and executive teams',
       'Evaluate, analyze, and communicate systems requirements continuously, and maintain systems processes, including the delivery of monthly status reports to all appropriate parties',
       'Develop meaningful and lasting relationships with partners for optimized systems integration, and respond to questions and concerns from managers and executives with supporting research and recommendations',
-      'Preferred Skills and Qualifications',
+    ],
+    skills: [
       '5 or more years of experience in analytics and systems development',
       'High proficiency in SQL and database management',
       'Experience in generating process documentation and reports',
       'Excellent communication skills, with an ability to translate data into actionable insights',
-    ],
+    ]
   },
   {
     id: 7,
     title: 'Frontend Developer ',
-    requirements: [
-      'Responsibilities',
+    responsibilities: [
       'Develop new user-facing features',
       'Build reusable code and libraries for future use',
       'Ensure the technical feasibility of UI/UX designs',
       'Optimize application for maximum speed and scalability',
-      'Preferred Skills and Qualifications',
+    ],
+    skills: [
       'Minimum of 5 years of experience in Frontend Development',
       'Proficient understanding of web markup, including HTML5, CSS3',
       'Basic understanding of server-side CSS pre-processing platforms, such as LESS and SASS',
       'Proficient understanding of client-side scripting and JavaScript frameworks, including jQuery',
-    ],
+    ]
   },
   {
     id: 8,
     title: 'UI/UX Designer',
-    requirements: [
-      'Responsibilities',
+    responsibilities: [
       'Identify target user groups and carry out interviews or other types of inquiry to help understand user needs',
       'Ensure the creation and implementation of customized experiences for the digital user',
       'Produce high-quality solutions through flow diagrams, graphic designs, storyboards, and site maps',
       'Guide the implementation of UX research techniques and testing activities to assess user behavior',
-      'Preferred Skills and Qualifications',
+    ],
+    skills: [
       'Proven working experience in web programming',
       'Top-notch programming skills and in-depth knowledge of modern HTML/CSS',
       'Familiarity with at least one of the following programming languages: JavaScript, PHP, or Ruby on Rails',
       'Good understanding of asynchronous request handling, partial page updates, and AJAX',
-    ],
+    ]
   },
 ];
 export const masonryData = [

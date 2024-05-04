@@ -14,6 +14,7 @@ import {
   MdOutlineKeyboardArrowLeft,
   GoClock,
   AiOutlineDollar,
+  BsCheckCircle,
 } from '../assets/icons/icons';
 
 export default function Careers() {
@@ -31,7 +32,7 @@ export default function Careers() {
       <Navbar navClass="nav-light" />
 
       <section
-        className="relative table w-full py-36 lg:py-44  bg-no-repeat bg-center bg-cover"
+        className="relative table w-full py-36 lg:py-44  bg-no-repeat bg-center bg-cover background-effect overflow-hidden "
         style={{ backgroundImage: "url('/images/job/job.jpg')" }}
       >
         <div className="absolute inset-0 bg-black opacity-80"></div>
@@ -43,13 +44,7 @@ export default function Careers() {
 
             <ul className="tracking-[0.5px] mb-0 inline-flex mx-auto space-x-1">
               <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white">
-                <Link href="/">Limesolution</Link>
-              </li>
-              <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180">
-                <MdKeyboardArrowRight className="text-xl" />
-              </li>
-              <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white">
-                <Link href="/index-job">Job</Link>
+                <Link href="/">Lime Solution</Link>
               </li>
               <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180">
                 <MdKeyboardArrowRight className="text-xl" />
@@ -63,6 +58,100 @@ export default function Careers() {
             </ul>
           </div>
         </div>
+
+        <div className="absolute inset-0 bg-indigo-600/5"></div>
+        <ul className="circles p-0 mb-0">
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/shree-logo.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/skype.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/snapchat.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/spotify.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/telegram.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/whatsapp.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/android.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/facebook-logo-2019.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/linkedin.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+          <li className="brand-img">
+            <Image
+              width={48}
+              height={48}
+              src="/images/client/google-logo.png"
+              className="w-9 h-9"
+              alt=""
+            />
+          </li>
+        </ul>
       </section>
 
       <div className="relative">
@@ -139,15 +228,48 @@ export default function Careers() {
                         </button>
                       </h2>
                       {activeIndex === item.id && (
-                        <ul className='list-outside'>
-                          {item.requirements.map((require, index) => (
-                            <li key={index}>
-                              <p className="text-slate-400 dark:text-gray-400 pl-4 pt-3 md:pt-2">
-                                {require}
-                              </p>
-                            </li>
-                          ))}
-                        </ul>
+                        <div>
+                          <p className="text-slate-400 dark:text-gray-400 pl-4 pt-4 md:pt-3">
+                            Responsibilities:
+                          </p>
+                          <ul className="list-outside ml-6">
+                            {item.responsibilities.map(
+                              (responsibilities, index) => (
+                                <li
+                                  key={index}
+                                  className="mb-1 flex items-center"
+                                >
+                                  <BsCheckCircle
+                                    className="text-indigo-600 text-base me-2"
+                                    style={{ width: '1rem', height: '1rem' }}
+                                  />{' '}
+                                  <p className="text-slate-400 dark:text-gray-400 pl-4 pt-2 md:pt-1">
+                                    {responsibilities}
+                                  </p>
+                                </li>
+                              ),
+                            )}
+                          </ul>
+                          <p className="text-slate-400 dark:text-gray-400 pl-4 pt-4 md:pt-3">
+                            Preferred skills and Qualifications:
+                          </p>
+                          <ul className="list-outside ml-6">
+                            {item.skills.map((skills, index) => (
+                              <li
+                                key={index}
+                                className="mb-1 flex items-center"
+                              >
+                                <BsCheckCircle
+                                  className="text-indigo-600 text-base me-2"
+                                  style={{ width: '1rem', height: '1rem' }}
+                                />{' '}
+                                <p className="text-slate-400 dark:text-gray-400 pl-4 pt-2 md:pt-1">
+                                  {skills}
+                                </p>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
                       )}
                     </div>
                   ))}
