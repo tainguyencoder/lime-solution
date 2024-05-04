@@ -77,7 +77,6 @@ export default function Coworking() {
                 className="rounded-lg shadow-md dark:shadow-gray-800"
                 alt=""
               />
-              <div className="overflow-hidden absolute lg:size-[400px] size-[320px] bg-indigo-600/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>
             </div>
 
             <div className="lg:me-8 order-2 md:order-1">
@@ -138,23 +137,6 @@ export default function Coworking() {
                   Our Mission
                 </h6>
                 <div className="md:me-6">
-                  {/* <ul className="list-none mb-0 text-amber-400 text-xl space-x-1">
-                    <li className="inline">
-                      <i className="mdi mdi-star"></i>
-                    </li>
-                    <li className="inline">
-                      <i className="mdi mdi-star"></i>
-                    </li>
-                    <li className="inline">
-                      <i className="mdi mdi-star"></i>
-                    </li>
-                    <li className="inline">
-                      <i className="mdi mdi-star"></i>
-                    </li>
-                    <li className="inline">
-                      <i className="mdi mdi-star"></i>
-                    </li>
-                  </ul> */}
                   <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5 text-black dark:text-white">
                     Want to make
                     <br />

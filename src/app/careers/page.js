@@ -232,7 +232,7 @@ export default function Careers() {
                           <p className="text-slate-400 dark:text-gray-400 pl-4 pt-4 md:pt-3">
                             Responsibilities:
                           </p>
-                          <ul className="list-outside ml-6">
+                          <ul className="ml-6">
                             {item.responsibilities.map(
                               (responsibilities, index) => (
                                 <li
@@ -240,8 +240,7 @@ export default function Careers() {
                                   className="mb-1 flex items-center"
                                 >
                                   <BsCheckCircle
-                                    className="text-indigo-600 text-base me-2"
-                                    style={{ width: '1rem', height: '1rem' }}
+                                    className="text-indigo-600 me-2 w-[1em] h-[1em]"
                                   />{' '}
                                   <p className="text-slate-400 dark:text-gray-400 pl-4 pt-2 md:pt-1">
                                     {responsibilities}
