@@ -28,40 +28,23 @@ export default function Services() {
   return (
     <>
       <Navbar navClass="nav-light" />
+      <section className="relative table w-full py-36 lg:py-44 bg-no-repeat bg-center bg-cover" style={{backgroundImage:"url('/images/services.jpg')"}}>
+            <div className="absolute inset-0 bg-black opacity-75"></div>
+            <div className="container relative">
+                <div className="grid grid-cols-1 pb-8 text-center mt-10">
+                    <h5 className="text-white/50 text-lg font-medium">What We Offer ?</h5>
+                    <h3 className="mt-2 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Our Services</h3>
+                </div>
+            </div>
 
-      <section
-        className="relative table w-full py-30 lg:py-44 bg-no-repeat bg-center bg-cover"
-        style={{ backgroundImage: "url('/images/services.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-black opacity-75"></div>
-        <div className="container relative">
-          <div className="grid grid-cols-1 pb-8 text-center mt-10">
-            <h5 className="text-white/50 text-lg font-medium">
-              What We Offer ?
-            </h5>
-            <h3 className="mt-2 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">
-              Our Services
-            </h3>
-          </div>
-        </div>
-
-        <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
-          <ul className=" tracking-[0.5px]  mb-0 inline-flex mx-auto space-x-1">
-            <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white">
-              <Link href="/">Lime Solution</Link>
-            </li>
-            <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180">
-              <MdKeyboardArrowRight className="text-xl" />
-            </li>
-            <li
-              className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white"
-              aria-current="page"
-            >
-              Services
-            </li>
-          </ul>
-        </div>
-      </section>
+            <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
+                <ul className=" tracking-[0.5px]  mb-0 inline-flex mx-auto space-x-1">
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Lime Solution</Link></li>
+                    <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Services</li>
+                </ul>
+            </div>
+        </section>
 
       <div className="relative">
         <div className="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden z-1 text-white dark:text-slate-900">
@@ -95,9 +78,11 @@ export default function Services() {
               </div>
             </div>
             <div className="lg:col-span-6 md:order-1 order-2">
-              <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                Full product lifecycle development <br /> from A-Z
-              </h3>
+              <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text mb-4">
+                Full product lifecycle
+                <br />
+                development from A-Z
+              </h4>
               <p className="text-slate-400 max-w-xl">
                 With our experts and experience, we can work with you during
                 every software development step—from the idea, and design to
@@ -157,20 +142,25 @@ export default function Services() {
 
         <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 text-center">
-            <h3 className="md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
+            <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text">
               Our Services
-            </h3>
+            </h4>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-[30px]">
             {servicesTwo.map((item, index) => {
+              let Icons = item.icon;
+
               return (
                 <div
                   key={index}
                   className="p-6 hover:shadow-xl hover:shadow-gray-100 dark:hover:shadow-gray-800 transition duration-500 rounded-2xl mt-6 text-center"
                 >
+                  <div className="w-20 h-20 bg-indigo-600/5 text-indigo-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                    <Icons className="w-7 h-7" />
+                  </div>
                   <div className="content mt-7">
                     <Link
-                      href="/page-services"
+                      href="/services"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
                       {item.title}
@@ -187,9 +177,9 @@ export default function Services() {
       <section className="relative md:py-24 py-16">
         <div className="container relative">
           <div className="grid grid-cols-1 pb-8 text-center">
-            <h3 className="md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-                Domains
-            </h3>
+          <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text">
+              Domains
+            </h4>
           </div>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-[24px]">

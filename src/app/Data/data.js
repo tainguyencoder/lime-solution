@@ -530,7 +530,7 @@ export const referenceData = [
     background: 'bg-sky-600/10 dark:bg-sky-600/30',
   },
   {
-    image: '/images/client/01.jpg',
+    image: '/images/client/06.jpg',
     name: 'Mr. Daniel',
     title: 'Direct of Engineering',
     desc: 'The company actively promotes the advancement of our IT projects by deploying seasoned developers, whose expertise and dedication propel the projects towards successful fruition',

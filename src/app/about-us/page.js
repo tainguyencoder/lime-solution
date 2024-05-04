@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -16,6 +17,8 @@ import { MdKeyboardArrowRight, FaRegEnvelope } from '../assets/icons/icons';
 
 import { teamData } from '../Data/data';
 import { benefitData, referenceData } from '../Data/data';
+import TextAnimation from '../componets/seo/textAnimation';
+import { TypeAnimation } from 'react-type-animation';
 
 export default function PageAboutUs() {
   return (
@@ -29,12 +32,21 @@ export default function PageAboutUs() {
         <div className="absolute inset-0 bg-black opacity-75"></div>
         <div className="container relative">
           <div className="grid grid-cols-1 pb-8 text-center mt-10">
-            <h3 className="mb-6 md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">
+            <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-white">
               About Us
-            </h3>
-            <p className="text-slate-300 text-lg max-w-xl mx-auto">
-              A satisfied customer is the best business strategy of all
-            </p>
+            </h4>
+            <TypeAnimation
+              sequence={[
+                'A satisfied customer is the best business strategy of all',
+                1900,
+                ' ',
+                1900,
+              ]}
+              wrapper="span"
+              speed={50}
+              className="md:text-4xl text-3xl typewrite bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"
+              repeat={Infinity}
+            />
           </div>
         </div>
 
@@ -119,27 +131,25 @@ export default function PageAboutUs() {
             <div className="lg:col-span-7 md:col-span-6">
               <div className="lg:ms-5">
                 <Counter />
-                <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                  Who we are ? (.)
-                </h3>
+                <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text mb-5">
+                  Who we are ?
+                </h4>
 
                 <p className="text-slate-400 max-w-xl">
-                  Lime Technologies Ltd, a global market leader in software
-                  development, testing services, and top-tier technology
-                  consulting offers an integrated suite of cutting-edge
-                  solutions that help businesses accelerate product
-                  speed-to-market. With development centers in Vietnam and
-                  Mexico, we have been trusted globally for the superb quality
-                  of our software consulting & development services. With a
-                  customer-centric approach, Lime Technologies Ltd aims to fuel
+                  Lime Solution, a global market leader in software development,
+                  testing services, and top-tier technology consulting offers an
+                  integrated suite of cutting-edge solutions that help
+                  businesses accelerate product speed-to-market. With a
+                  customer-centric approach, Lime Solution aims to fuel
                   innovation for organizations by helping to modernize existing
                   systems or bring new software visions to life.
                   <br />
                   The available talents, the open-minded culture, and the
-                  advantageous framework conditions have convinced Markus to
+                  advantageous framework conditions have convinced us to
                   establish a software development company in Vietnam and offer
-                  development services to clients from all over the world. We
-                  are happy to reserve a modern open-plan workspace, which
+                  development services to clients from all over the world.
+                  <br />
+                  We are happy to reserve a modern open-plan workspace, which
                   always has enough space for your software engineer teams, plus
                   several private offices and on-ready meeting rooms with
                   high-quality media systems; designed to encourage interactions
@@ -164,9 +174,33 @@ export default function PageAboutUs() {
         </div>
         <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 text-center">
-            <h3 className="md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-              Benefits
-            </h3>
+            <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">
+              Your benefits:
+              <TypeAnimation
+                sequence={[
+                  ' Modern Culture',
+                  2000,
+                  ' Health & Wellness',
+                  2000,
+                  ' Friendly Environment',
+                  2000,
+                  ' Financial',
+                  2000,
+                  ' Where Talents Shine',
+                  2000,
+                  ' Learning & Growth',
+                  2000,
+                  ' Every Effort Is Well-merited',
+                  2000,
+                  ' Company Events',
+                  2000,
+                ]}
+                wrapper="span"
+                speed={50}
+                className="typewrite bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"
+                repeat={Infinity}
+              />
+            </h1>
           </div>
 
           <div className="grid lg:grid-cols-12 md:grid-cols-12 grid-cols-1 gap-[30px] items-center">

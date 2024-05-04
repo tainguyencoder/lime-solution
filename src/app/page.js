@@ -47,8 +47,11 @@ export default function Coworking() {
               className="block mx-auto animate-[spin_10s_linear_infinite]"
               alt=""
             />
-            <h3 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 mt-10 text-white">
-              Lime Solution <br /> Vietnam&apos;s Leading Technology Partner
+            <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text mt-10">
+              Lime Solution
+            </h4>
+            <h3 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white">
+              Vietnam&apos;s Leading Technology Partner
             </h3>
 
             <p className="text-slate-300 text-lg max-w-2xl mx-auto">
@@ -79,16 +82,15 @@ export default function Coworking() {
 
             <div className="lg:me-8 order-2 md:order-1">
               <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5 text-black dark:text-white">
-                  be  {' '}
+                be{' '}
                 <span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-indigo-600 after:from-green-600 relative">
                   THE CHANGE
                 </span>{' '}
-                <br />{' '}
-                you {' '}
+                <br /> you{' '}
                 <span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-indigo-600 after:from-green-600 relative">
-                   WANT
+                  WANT
                 </span>{' '}
-                  to see in the world
+                to see in the world
               </h4>
               <p className="text-slate-400">
                 Lime Technologies Ltd is an IT outsourcing Company in VietNam
@@ -134,9 +136,32 @@ export default function Coworking() {
                 <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">
                   Our Mission
                 </h6>
-                <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-                  “Want to make <br /> your life better?” (.)
-                </h3>
+                <div className="md:me-6">
+                  <ul className="list-none mb-0 text-amber-400 text-xl space-x-1">
+                    <li className="inline">
+                      <i className="mdi mdi-star"></i>
+                    </li>
+                    <li className="inline">
+                      <i className="mdi mdi-star"></i>
+                    </li>
+                    <li className="inline">
+                      <i className="mdi mdi-star"></i>
+                    </li>
+                    <li className="inline">
+                      <i className="mdi mdi-star"></i>
+                    </li>
+                    <li className="inline">
+                      <i className="mdi mdi-star"></i>
+                    </li>
+                  </ul>
+                  <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white">
+                    Want to make your{' '}
+                    <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-indigo-600/20 relative text-indigo-600">
+                      life better
+                    </span>{' '}
+                    ?
+                  </h4>
+                </div>
 
                 <p className="text-slate-400 max-w-xl mb-6">
                   Our mission is to achieve success for and inspire our partners

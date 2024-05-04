@@ -96,6 +96,9 @@ import {
   AiOutlineConsoleSql,
   AiOutlineMobile,
   AiOutlineFileSearch,
+  GrTechnology,
+  GrCloudSoftware,
+  SiHiveBlockchain
 } from '../assets/icons/icons';
 
 import { HiOutlineCog6Tooth } from 'react-icons/hi2';
@@ -1139,29 +1142,19 @@ export const servicesTwo = [
     desc: 'In the digital era, success hinges on bold vision and impeccable execution. We provide comprehensive assistance. Our expert teams collaborate closely with you to create, build, and grow innovative digital enterprises. With skills in design, development, data science, engineering, and business, we leverage diverse experience to ensure your success in the digital world.',
   },
   {
-    icon: MdApi,
-    title: 'IOS App Designer',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+    icon: GrTechnology,
+    title: 'Consulting On Technology Solutions',
+    desc: 'Our technology consulting company helps businesses navigate complex technology decisions. We offer guidance on strategy, application support, custom development, and cutting-edge technologies to improve efficiency and performance in your business.',
   },
   {
-    icon: TbCameraPlus,
-    title: 'Photography',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+    icon: GrCloudSoftware,
+    title: 'Software Solutions',
+    desc: "Lime Solution offers consulting, design, and unique software solutions tailored to each enterprise's objectives and business strategy. Their comprehensive products are competitively priced and easily modified, maintained, and upgraded.",
   },
   {
-    icon: PiFlowerLight,
-    title: 'Graphic Designer',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
-  },
-  {
-    icon: HiOutlineCog6Tooth,
-    title: 'Web Security',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
-  },
-  {
-    icon: FaRegComment,
-    title: '24/7 Support',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+    icon: SiHiveBlockchain,
+    title: 'Blockchain Solution',
+    desc: 'Assisting startups and enterprises with decentralized Blockchain network utilization, alongside providing IT Consulting, Development, and Outsourcing services for business efficiency.',
   },
 ];
 export const lowClient = [
