@@ -32,11 +32,11 @@ export default function PodcastItem(){
             992: {
                 items: 3
             },
-    
+
             767: {
                 items: 2
             },
-    
+
             320: {
                 items: 1
             },
@@ -68,12 +68,11 @@ export default function PodcastItem(){
                             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="S_CGed6E610" onClose={() => setOpen(false)} />
                             <div className="content p-6">
                                 <audio controls className="block w-full max-w-md mx-auto mb-3">
-                                    {/* <source src="assets/images/audio.mp3" type="audio/mpeg"/> */}
                                 </audio>
 
                                 <Link href="/blog-youtube-post" className="title h5 text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">{item.title}</Link>
                                 <p className="text-slate-400 mt-3">{item.desc}</p>
-                                
+
                                 <div className="mt-4">
                                     <Link href="/blog-youtube-post" className="relative inline-flex items-center tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 font-normal hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Watch Now <FaArrowRight className='ms-1 text-[10px]'/></Link>
                                 </div>

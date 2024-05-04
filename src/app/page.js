@@ -54,8 +54,8 @@ export default function Coworking() {
             <p className="text-slate-300 text-lg max-w-2xl mx-auto">
               One of the top IT firms in Vietnam, Lime Solution focuses on
               offering software solutions and consulting services for digital
-              transformation to local enterprises in the retail, healthcare, and
-              financial industries, as well as international.
+              transformation to local enterprises in the entertainment,
+              e-commerce, and financial industries, as well as international.
             </p>
           </div>
         </div>
@@ -78,8 +78,17 @@ export default function Coworking() {
             </div>
 
             <div className="lg:me-8 order-2 md:order-1">
-              <h4 className="mb-4 text-2xl leading-normal font-medium">
-                Be the change you want to see in the world
+              <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5 text-black dark:text-white">
+                  be  {' '}
+                <span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-indigo-600 after:from-green-600 relative">
+                  THE CHANGE
+                </span>{' '}
+                <br />{' '}
+                you {' '}
+                <span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-indigo-600 after:from-green-600 relative">
+                   WANT
+                </span>{' '}
+                  to see in the world
               </h4>
               <p className="text-slate-400">
                 Lime Technologies Ltd is an IT outsourcing Company in VietNam
@@ -126,18 +135,30 @@ export default function Coworking() {
                   Our Mission
                 </h6>
                 <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-                  “Want to make <br /> your life better?”
+                  “Want to make <br /> your life better?” (.)
                 </h3>
 
                 <p className="text-slate-400 max-w-xl mb-6">
-                  We bring a very simple message. Customers trust us because we
-                  are here to handle your technology needs and technology
-                  solutions to ensure that you can focus your attention on the
-                  needs of your business. Technology is advancing at a
-                  phenomenal rate, our company is constantly researching and
-                  developing new ideas and exploring innovative solutions to
-                  make the impossible possible and ensure that business your
-                  career can perform at its best.
+                  Our mission is to achieve success for and inspire our partners
+                  and customers by consistently and persistently doing things
+                  the right way. As a visionary technology group, we believe
+                  innovative technology can solve some of the greatest problems
+                  of our time while creating the greatest value for those we
+                  serve.
+                  <br />
+                  Lime Solution, we strive to become the lighthouse to start-ups
+                  or emerging brands on the ocean of uncertainty by becoming
+                  their business companion with unwavering loyalty. We will give
+                  everything to create successful brand stories for our partners
+                  and provide distinctive marketing solutions to drive
+                  businesses to their full potential. Lime Solution, a global
+                  market leader in software development, testing services, and
+                  top-tier technology consulting offers an integrated suite of
+                  cutting-edge solutions that help businesses accelerate product
+                  speed-to-market. With a customer-centric approach, Lime
+                  Solution aims to fuel innovation for organizations by helping
+                  to modernize existing systems or bring new software visions to
+                  life.
                 </p>
 
                 <Link
@@ -150,64 +171,6 @@ export default function Coworking() {
             </div>
           </div>
         </div>
-        {/*
-        <div className="container relative md:mt-24 mt-16">
-          <div className="grid grid-cols-1 pb-8 text-center">
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-              Our Services
-            </h3>
-
-            <p className="text-slate-400 max-w-xl mx-auto">
-              Start working with Tailwind CSS that can provide everything you
-              need to generate awareness, drive traffic, connect.
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-4 gap-[30px]">
-            {coworkAbout.map((item, index) => {
-              let Icons = item.icon;
-              return (
-                <div
-                  key={index}
-                  className="group relative lg:px-10 mt-4 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center"
-                >
-                  <div className="relative overflow-hidden text-transparent -m-3">
-                    <Icon.Hexagon className="size-32 fill-indigo-600/5 mx-auto"></Icon.Hexagon>
-                    <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-indigo-600 rounded-xl transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
-                      <Icons className="w-7 h-7" />
-                    </div>
-                  </div>
-
-                  <div className="mt-6">
-                    <Link
-                      href="#"
-                      className="text-xl font-medium transition-all duration-500 ease-in-out hover:text-indigo-600"
-                    >
-                      {item.title}
-                    </Link>
-                    <p className="text-slate-400 transition-all duration-500 ease-in-out mt-3">
-                      {item.desc}
-                    </p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div> */}
-
-        {/* <div className="container relative md:mt-24 mt-16">
-          <div className="grid grid-cols-1 pb-8 text-center">
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-              We provide Different types of office
-            </h3>
-
-            <p className="text-slate-400 max-w-xl mx-auto">
-              Start working with Tailwind CSS that can provide everything you
-              need to generate awareness, drive traffic, connect.
-            </p>
-          </div>
-        </div>
-        <Office /> */}
         <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-8 text-center">
             <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
@@ -280,11 +243,6 @@ export default function Coworking() {
           </div>
         </div>
       </section>
-
-      {/* <section className="realtive md:py-24 py-16">
-        <WorkingTab />
-      </section> */}
-
       <Footer />
       <Switcher />
     </>

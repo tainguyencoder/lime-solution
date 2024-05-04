@@ -12,7 +12,7 @@ import {BsArchive} from "react-icons/bs"
 
 export default function ShopFooter(){
     return(
-        <footer className="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">    
+        <footer className="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
         <div className="container relative">
             <div className="grid grid-cols-12">
                 <div className="col-span-12">
@@ -31,14 +31,12 @@ export default function ShopFooter(){
                                     <li className="inline"><Link href="https://www.facebook.com/shreethemes" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaFacebookF className='text-sm'/></Link></li>
                                     <li className="inline"><Link href="https://www.instagram.com/shreethemes/" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaInstagram className='text-sm'/></Link></li>
                                     <li className="inline"><Link href="https://twitter.com/shreethemes" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaTwitter className='text-sm'/></Link></li>
-                                    {/* <li className="inline"><Link href="mailto:support@shreethemes.in" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaRegEnvelope  className=" text-sm"/></Link></li>
-                                    <li className="inline"><Link href="https://forms.gle/QkTueCikDGqJnbky9" target="_blank" className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaRegFile className='text-sm'/></Link></li> */}
                                 </ul>
                             </div>
-                            
+
                             <div className="lg:col-span-6 md:col-span-12">
                                 <h5 className="tracking-[1px] text-gray-100 font-semibold">Shopping & Clothes</h5>
-    
+
                                 <div className="grid md:grid-cols-12 grid-cols-1">
                                     <div className="md:col-span-4">
                                         <ul className="list-none footer-list mt-6">
@@ -50,7 +48,7 @@ export default function ShopFooter(){
                                             <li className="mt-[10px]"><Link href="" className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="text-xl me-1"/> Shirts</Link></li>
                                         </ul>
                                     </div>
-                                    
+
                                     <div className="md:col-span-4">
                                         <ul className="list-none footer-list mt-6">
                                             <li><Link href="" className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="text-xl me-1"/> Shorts </Link></li>
@@ -61,7 +59,7 @@ export default function ShopFooter(){
                                             <li className="mt-[10px]"><Link href="" className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="text-xl me-1"/> Shirts</Link></li>
                                         </ul>
                                     </div>
-                                    
+
                                     <div className="md:col-span-4">
                                         <ul className="list-none footer-list mt-6">
                                             <li><Link href="" className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="text-xl me-1"/> My account </Link></li>
@@ -74,7 +72,7 @@ export default function ShopFooter(){
                                     </div>
                                 </div>
                             </div>
-        
+
                             <div className="lg:col-span-3 md:col-span-4">
                                 <h5 className="tracking-[1px] text-gray-100 font-semibold">Newsletter</h5>
                                 <p className="mt-6">Sign up and receive the latest tips via email.</p>
@@ -87,7 +85,7 @@ export default function ShopFooter(){
                                                 <input type="email" className="form-input ps-12 rounded w-full py-2 px-3 h-10 bg-gray-800 border-0 text-gray-100 focus:shadow-none focus:ring-0 placeholder:text-gray-200" placeholder="Email" name="email" required=""/>
                                             </div>
                                         </div>
-                                            
+
                                         <button type="submit" id="submitsubscribe" name="send" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Subscribe</button>
                                     </div>
                                 </form>
@@ -96,7 +94,7 @@ export default function ShopFooter(){
                     </div>
                 </div>
             </div>
-    
+
             <div className="grid grid-cols-1">
                 <div className="py-[30px] px-0 border-t border-slate-800">
                     <div className="grid lg:grid-cols-4 md:grid-cols-2">
@@ -104,33 +102,33 @@ export default function ShopFooter(){
                             <TfiTruck className="align-middle text-lg mb-0 me-2"/>
                             <h6 className="mb-0 font-medium">Free delivery</h6>
                         </div>
-    
+
                         <div className="flex items-center lg:justify-center">
                             <BsArchive className="align-middle text-lg mb-0 me-2"/>
                             <h6 className="mb-0 font-medium">Non-contact shipping</h6>
                         </div>
-    
+
                         <div className="flex items-center lg:justify-center">
                             <BiCreditCardAlt className="align-middle text-lg mb-0 me-2"/>
                             <h6 className="mb-0 font-medium">Money-back quarantee</h6>
                         </div>
-    
+
                         <div className="flex items-center lg:justify-center">
-                            <BiShieldAlt2 className="align-middle text-lg mb-0 me-2"/> 
+                            <BiShieldAlt2 className="align-middle text-lg mb-0 me-2"/>
                             <h6 className="mb-0 font-medium">Secure payments</h6>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
+
         <div className="py-[30px] px-0 border-t border-slate-800">
             <div className="container relative text-center">
                 <div className="grid md:grid-cols-2 items-center">
                     <div className="md:text-start text-center">
                         <p className="mb-0">© {new Date().getFullYear()} Techwind. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                     </div>
-    
+
                     <ul className="list-none md:text-end text-center mt-6 md:mt-0 space-x-1">
                         <li className="inline"><Link href=""><Image src="/images/payments/visa.png" width={35} height={24} className="max-h-6 inline" title="American Express" alt=""/></Link></li>
                         <li className="inline"><Link href=""><Image src="/images/payments/american-ex.png" width={35} height={24} className="max-h-6 inline" title="Discover" alt=""/></Link></li>

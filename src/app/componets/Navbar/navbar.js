@@ -90,35 +90,6 @@ export default function Navbar(props) {
                 </div>
             </div>
 
-            {/* {
-                navClass !== 'nav-light' ? <ul className={`buy-button list-none space-x-1 mb-0`} >
-                        <li className="inline mb-0">
-                            <Link href="#" className="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600/5 hover:bg-indigo-600 border border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"><LuSettings className="size-4" /></Link>
-                        </li>
-
-                        <li className="inline ps-1 mb-0">
-                            <Link href="https://1.envato.market/techwind-next" target="_blank" className="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white"><BsCart3 className="size-4" /></Link>
-                        </li>
-
-                    </ul>
-                    :
-                    <ul className="buy-button list-none space-x-1 mb-0">
-                    <li className="inline mb-0">
-                        <Link href="#">
-                            <span className="login-btn-primary"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-indigo-600/5 hover:bg-indigo-600 border border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white"><LuSettings className="size-4" /></span></span>
-                            <span className="login-btn-light"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 border hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><LuSettings className="size-4" /></span></span>
-                        </Link>
-                    </li>
-
-                    <li className="inline ps-1 mb-0">
-                        <Link href="https://1.envato.market/techwind-next" target="_blank">
-                            <div className="login-btn-primary"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white"><BsCart3 className="size-4" /></span></div>
-                            <div className="login-btn-light"><span className="size-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 border hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700"><BsCart3 className="size-4" /></span></div>
-                        </Link>
-                    </li>
-                </ul>
-            } */}
-
             <div id="navigation" style={{ display: isMenu ? 'block' : 'none' }}>
                 <ul className={`navigation-menu ${navClass} ${navJustify}`}>
                     <li className={manu === "/" || "" ? "active" : ""}><Link href="/" className="sub-menu-item">Home</Link></li>

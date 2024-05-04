@@ -120,7 +120,7 @@ export default function PageAboutUs() {
               <div className="lg:ms-5">
                 <Counter />
                 <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                  Who we are ?
+                  Who we are ? (.)
                 </h3>
 
                 <p className="text-slate-400 max-w-xl">

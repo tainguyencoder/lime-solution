@@ -33,9 +33,9 @@ export default function NftNavbar() {
             window.removeEventListener('scroll', windowScroll);
         };
     }, []);
-    
-    
-   
+
+
+
     const toggleMenu = () => {
         setisMenu(!isMenu);
         if (document.getElementById("navigation")) {
@@ -145,7 +145,6 @@ export default function NftNavbar() {
                 </div>
 
                 <ul className="buy-button list-none space-x-1 mb-0">
-                    {/* <!-- <li className="sm:inline-block hidden mb-0"> --> */}
                     <li className="inline-block mb-0">
                         <div className="form-icon relative">
                             <LuSearch className="text-xl absolute top-1/2 -translate-y-1/2 start-3"/>
@@ -163,7 +162,7 @@ export default function NftNavbar() {
                         </button>
 
                         <div className= {`dropdown-menu absolute end-0 m-0 mt-4 z-10 w-48 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-800  ${isDropdown ? 'hidden' : 'block'}`}>
-                       
+
                             <div className="relative">
                                 <div className="py-8 bg-gradient-to-tr from-indigo-600 to-red-600"></div>
                                 <div className="absolute px-4 -bottom-7 start-0">
