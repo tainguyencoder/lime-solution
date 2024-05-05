@@ -6,6 +6,7 @@ module.exports = {
   important: true,
   theme: {
     screens: {
+      xxs: "359px",
       xs: "540px",
       sm: "640px",
       md: "768px",
@@ -14,7 +15,7 @@ module.exports = {
       "2xl": "1536px",
       lg_992: "992px",
     },
-    
+
     container: {
       center: true,
       padding: {

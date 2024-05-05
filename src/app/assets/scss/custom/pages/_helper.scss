@@ -24,7 +24,7 @@
 /* Shapes */
 .shape {
     &.marketing-hero {
-        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);        
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     }
 }
 
@@ -50,9 +50,9 @@
 }
 
 @keyframes sk-bounce {
-    0%, 100% { 
+    0%, 100% {
       transform: scale(0.0);
-    } 50% { 
+    } 50% {
       transform: scale(1.0);
     }
 }
@@ -87,10 +87,10 @@ ul{
         -webkit-margin-start: 0.25rem;
                 margin-inline-start: 0.25rem;
       }
-} 
-ul{
-    li:first-child{
-        -webkit-margin-start: 0px;
-                margin-inline-start: 0px;
-      }
-  }
+}
+// ul{
+//     li:first-child{
+//         -webkit-margin-start: 0px;
+//                 margin-inline-start: 0px;
+//       }
+//   }

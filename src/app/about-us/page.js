@@ -44,7 +44,7 @@ export default function PageAboutUs() {
               ]}
               wrapper="span"
               speed={50}
-              className="md:text-4xl text-3xl typewrite bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"
+              className="md:text-4xl text-3xl typewrite bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text"
               repeat={Infinity}
             />
           </div>
@@ -131,7 +131,7 @@ export default function PageAboutUs() {
             <div className="lg:col-span-7 md:col-span-6">
               <div className="lg:ms-5">
                 <Counter />
-                <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text mb-5">
+                <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text mb-5">
                   Who we are ?
                 </h4>
 
@@ -197,7 +197,7 @@ export default function PageAboutUs() {
                 ]}
                 wrapper="span"
                 speed={50}
-                className="typewrite bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"
+                className="typewrite bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text"
                 repeat={Infinity}
               />
             </h1>

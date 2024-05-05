@@ -239,10 +239,8 @@ export default function Careers() {
                                   key={index}
                                   className="mb-1 flex items-center"
                                 >
-                                  <BsCheckCircle
-                                    className="text-indigo-600 me-2 w-[1em] h-[1em]"
-                                  />{' '}
-                                  <p className="text-slate-400 dark:text-gray-400 pl-4 pt-2 md:pt-1">
+                                  <BsCheckCircle className="text-indigo-600 flex-shrink-0" />
+                                  <p className="text-slate-400 dark:text-gray-400 pl-3">
                                     {responsibilities}
                                   </p>
                                 </li>
@@ -252,17 +250,11 @@ export default function Careers() {
                           <p className="text-slate-400 dark:text-gray-400 pl-4 pt-4 md:pt-3">
                             Preferred skills and Qualifications:
                           </p>
-                          <ul className="list-outside ml-6">
+                          <ul className="ml-6">
                             {item.skills.map((skills, index) => (
-                              <li
-                                key={index}
-                                className="mb-1 flex items-center"
-                              >
-                                <BsCheckCircle
-                                  className="text-indigo-600 text-base me-2"
-                                  style={{ width: '1rem', height: '1rem' }}
-                                />{' '}
-                                <p className="text-slate-400 dark:text-gray-400 pl-4 pt-2 md:pt-1">
+                              <li key={index} className="mb-1 flex items-start">
+                                <BsCheckCircle className="text-indigo-600 flex-shrink-0" />
+                                <p className="text-slate-400 dark:text-gray-400 pl-3">
                                   {skills}
                                 </p>
                               </li>

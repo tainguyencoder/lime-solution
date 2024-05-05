@@ -94,7 +94,7 @@ export default function Services() {
               </div>
             </div>
             <div className="lg:col-span-6 md:order-1 order-2">
-              <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text mb-4">
+              <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl bg-gradient-to-tr from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text mb-4">
                 Full product lifecycle
                 <br />
                 development from A-Z
@@ -116,37 +116,37 @@ export default function Services() {
                 and integrated IT solutions, addressing the exact needs of our
                 customers.
               </p>
-              <ul className="list-none text-slate-400 mt-4">
+              <ul className="text-slate-400 mt-4 list-outside">
                 <li className="mb-1 flex items-center">
-                  <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <p>
+                  <BsCheckCircle className="text-indigo-600 flex-shrink-0" />
+                  <p className="text-slate-400 dark:text-gray-400 pl-3">
                     <strong>Our ethos:</strong> &ldquo;We walk our talk.&rdquo;
                   </p>
                 </li>
                 <li className="mb-1 flex items-center">
-                  <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <p>
+                  <BsCheckCircle className="text-indigo-600 flex-shrink-0" />
+                  <p className="text-slate-400 dark:text-gray-400 pl-3">
                     <strong>RELIABILITY</strong> is key to success in all
                     relationships
                   </p>
                 </li>
                 <li className="mb-1 flex items-center">
-                  <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <p>
+                  <BsCheckCircle className="text-indigo-600 flex-shrink-0" />
+                  <p className="text-slate-400 dark:text-gray-400 pl-3">
                     With <strong>TRANSPARENCY</strong> we build trust and work
                     together efficiently
                   </p>
                 </li>
                 <li className="mb-1 flex items-center">
-                  <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <p>
+                  <BsCheckCircle className="text-indigo-600 flex-shrink-0" />
+                  <p className="text-slate-400 dark:text-gray-400 pl-3">
                     <strong>HONESTY</strong> helps us form a long-term
                     relationship
                   </p>
                 </li>
                 <li className="mb-1 flex items-center">
-                  <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  <p>
+                  <BsCheckCircle className="text-indigo-600 flex-shrink-0" />
+                  <p className="text-slate-400 dark:text-gray-400 pl-3">
                     With <strong>PASSION</strong>, we can raise the quality and
                     make us happy
                   </p>
@@ -161,7 +161,7 @@ export default function Services() {
             <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text">
               Our Services
             </h4>
-            <ul className="list-none mb-0 bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text text-xl space-x-1">
+            <ul className="list-none mb-0 bg-gradient-to-r from-fuchsia-600 to-cyan-600 text-transparent bg-clip-text text-xl space-x-1">
               <li className="inline">
                 <i className="mdi mdi-star"></i>
               </li>

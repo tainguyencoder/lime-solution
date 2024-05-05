@@ -47,10 +47,10 @@ export default function Coworking() {
               className="block mx-auto animate-[spin_10s_linear_infinite]"
               alt=""
             />
-            <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text mt-10">
+            <h3 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text mt-10">
               Lime Solution
-            </h4>
-            <h3 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white">
+            </h3>
+            <h3 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5 text-white">
               Vietnam&apos;s Leading Technology Partner
             </h3>
 
@@ -82,18 +82,18 @@ export default function Coworking() {
             <div className="lg:me-8 order-2 md:order-1">
               <h4 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5 text-black dark:text-white">
                 Be{' '}
-                <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-red-600/20 relative bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text animate-gradient">
+                <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-violet-600/20 relative bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text animate-gradient">
                   the change
                 </span>{' '}
                 <br />
                 you{' '}
-                <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-red-600/20 relative bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text animate-gradient">
+                <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-violet-600/20 relative bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text animate-gradient">
                   want
                 </span>{' '}
                 to see in the world
               </h4>
               <p className="text-slate-400">
-                Lime Technologies Ltd is an IT outsourcing Company in VietNam
+                Lime Technologies Ltd is an IT outsourcing Company in Vietnam
                 that was founded on April 17th, 2016, with the vision of
                 becoming one of the top IT service providers in Vietnam. We have
                 always pursued the mission of elevating and connecting
@@ -141,7 +141,7 @@ export default function Coworking() {
                     Want to make
                     <br />
                     your{' '}
-                    <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-red-600/20 relative bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text animate-gradient">
+                    <span className="after:absolute after:end-0 after:start-0 after:bottom-3 after:-rotate-6 after:h-2 after:w-auto after:rounded-md after:bg-violet-600/20 relative bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-transparent bg-clip-text animate-gradient">
                       life better
                     </span>{' '}
                     ?
