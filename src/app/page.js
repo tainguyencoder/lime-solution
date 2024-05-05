@@ -93,7 +93,7 @@ export default function Coworking() {
                 to see in the world
               </h4>
               <p className="text-slate-400">
-                Lime Technologies Ltd is an IT outsourcing Company in Vietnam
+                Lime Solution is an IT outsourcing Company in Vietnam
                 that was founded on April 17th, 2016, with the vision of
                 becoming one of the top IT service providers in Vietnam. We have
                 always pursued the mission of elevating and connecting
@@ -102,13 +102,13 @@ export default function Coworking() {
                 world&apos;s technology map.
                 <br />
                 Aiming at providing a comprehensive service offering system,
-                Lime Technologies Ltd brings more value and high-quality work to
-                our customers. With Lime Technologies Ltd, we specialize in
+                Lime Solution brings more value and high-quality work to
+                our customers. With Lime Solution, we specialize in
                 providing software solutions & consulting, implementing digital
                 transformation for a series of domestic and foreign businesses.
                 <br />
                 After 7 years of operation, with the spirit of ”challenge the
-                challenges” and endless energy, Lime Technologies Ltd has always
+                challenges” and endless energy, Lime Solution has always
                 been working tirelessly to expand our reach and our resources.
                 We set the target of becoming a global IT firm with 1000
                 headcounts and a leading IT Company in the ASEAN region in 2030.

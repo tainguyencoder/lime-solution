@@ -519,14 +519,14 @@ export const referenceData = [
     image: '/images/client/01.jpg',
     name: 'Mr. Francis An',
     title: 'Founder & CEO',
-    desc: 'We are very happy with the commitment of the teams to deliver high-quality results that make our customers happy. Of course, this would not be possible without the excellent support of Lime Technologies Limited Liability Company',
+    desc: 'We are very happy with the commitment of the teams to deliver high-quality results that make our customers happy. Of course, this would not be possible without the excellent support of Lime Solution Company',
     background: 'bg-indigo-600/10 dark:bg-indigo-600/30 ',
   },
   {
     image: '/images/client/08.jpg',
     name: 'Mr. Lee',
-    title: 'Head of development',
-    desc: 'Thanks to the collaboration with Lime Technologies Ltd, we are able to develop our projects in the Fintech industry successfully, an industry that bears a lot of potentials and is growing fast',
+    title: 'Head of Development',
+    desc: 'Thanks to the collaboration with Lime Technologies Ltd, we are able to develop our projects in the Finance industry successfully, an industry that bears a lot of potentials and is growing fast',
     background: 'bg-sky-600/10 dark:bg-sky-600/30',
   },
   {
