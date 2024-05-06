@@ -196,7 +196,7 @@ export default function Footer() {
             <div className="grid md:grid-cols-2 items-center">
               <div className="md:text-start text-center">
                 <p className="mb-0">
-                  © {new Date().getFullYear()} Lime Solution. Design & Develop
+                  © 2020 Lime Solution. Design & Develop
                   with <i className="mdi mdi-heart text-red-600"></i> by Lime
                   Solution
                 </p>

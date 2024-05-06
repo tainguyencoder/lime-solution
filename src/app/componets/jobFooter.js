@@ -30,7 +30,7 @@ export default function JobFooter(){
                 <div className="container relative text-center">
                     <div className="grid grid-cols-1">
                         <div className="text-center">
-                            <p className="mb-0">© {new Date().getFullYear()} Lime Solution. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by Lime Solution.</p>
+                            <p className="mb-0">© 2020 Lime Solution. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by Lime Solution.</p>
                         </div>
                     </div>
                 </div>
