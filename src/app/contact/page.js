@@ -158,7 +158,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="container relative md:mt-24 mt-16">
+        {/* <div className="container relative md:mt-24 mt-16">
           <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
             <div className="lg:col-span-7 md:col-span-6">
               <Image
@@ -274,7 +274,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <div className="container-fluid relative">
         <div className="grid grid-cols-1">
