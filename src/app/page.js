@@ -19,9 +19,20 @@ import { MdKeyboardArrowRight, BsCheckCircle } from './assets/icons/icons';
 import { coworkAbout } from './Data/dataThree';
 import { referenceData } from './Data/data';
 
+// meta data
+import Head from 'next/head';
+
 export default function Coworking() {
   return (
     <>
+      <Head>
+        <meta property="og:title" content="Lime Solution" />
+        <meta property="og:description" content="Lime Solution" />
+        <meta property="og:image" content="https://res.cloudinary.com/dy1aove6a/image/upload/v1722849747/limesolution_jn72ub.png" />
+        <meta property="og:url" content="https://limesolutionco.com/" />
+        <meta property="og:type" content="website" />
+      </Head>
+
       <Navbar navClass="nav-light" />
 
       <section className="relative md:py-60 py-36 items-center">
@@ -93,25 +104,24 @@ export default function Coworking() {
                 to see in the world
               </h4>
               <p className="text-slate-400">
-                Lime Solution is an IT outsourcing Company in Vietnam
-                that was founded on April 17th, 2016, with the vision of
-                becoming one of the top IT service providers in Vietnam. We have
-                always pursued the mission of elevating and connecting
-                Vietnamese IT engineers to international clients, hence
-                contributing to affirming Vietnam&apos;s position on the
-                world&apos;s technology map.
+                Lime Solution is an IT outsourcing Company in Vietnam that was
+                founded on April 17th, 2016, with the vision of becoming one of
+                the top IT service providers in Vietnam. We have always pursued
+                the mission of elevating and connecting Vietnamese IT engineers
+                to international clients, hence contributing to affirming
+                Vietnam&apos;s position on the world&apos;s technology map.
                 <br />
                 Aiming at providing a comprehensive service offering system,
-                Lime Solution brings more value and high-quality work to
-                our customers. With Lime Solution, we specialize in
-                providing software solutions & consulting, implementing digital
+                Lime Solution brings more value and high-quality work to our
+                customers. With Lime Solution, we specialize in providing
+                software solutions & consulting, implementing digital
                 transformation for a series of domestic and foreign businesses.
                 <br />
                 After 7 years of operation, with the spirit of ”challenge the
-                challenges” and endless energy, Lime Solution has always
-                been working tirelessly to expand our reach and our resources.
-                We set the target of becoming a global IT firm with 1000
-                headcounts and a leading IT Company in the ASEAN region in 2030.
+                challenges” and endless energy, Lime Solution has always been
+                working tirelessly to expand our reach and our resources. We set
+                the target of becoming a global IT firm with 1000 headcounts and
+                a leading IT Company in the ASEAN region in 2030.
               </p>
             </div>
           </div>
