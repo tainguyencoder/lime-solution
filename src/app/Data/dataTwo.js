@@ -1323,13 +1323,6 @@ export const lowServices = [
 ];
 export const contactData = [
   {
-    icon: FiPhone,
-    title: 'Phone',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
-    contact: '+84 999999999',
-    ref: 'tel: +84999999999',
-  },
-  {
     icon: FaRegEnvelope,
     title: 'Email',
     desc: 'The phrasal sequence of the is now so that many campaign and benefit',
