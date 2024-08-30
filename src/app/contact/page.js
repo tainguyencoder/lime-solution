@@ -281,7 +281,7 @@ export default function Contact() {
           <div className="w-full leading-[0] border-0">
             <iframe
               title="google"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.126202726886!2d106.65230857655803!3d10.801644989348677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529379073c071%3A0xb43136b2f837555b!2zMThlIMSQLiBD4buZbmcgSMOyYSwgUGjGsOG7nW5nIDQsIFTDom4gQsOsbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1714576204853!5m2!1svi!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2427860200783!2d106.69140187655817!3d10.792707989357023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175294f8901a4f5%3A0x308c9e4cbcc92102!2zNjIgxJAuIFRy4bqnbiBRdWFuZyBLaOG6o2ksIFBoxrDhu51uZyBUw6JuIMSQ4buLbmgsIFF14bqtbiAxLCBI4buTIENow60gTWluaCA3MDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1724995471192!5m2!1sen!2s"
               style={{ border: 0 }}
               className="w-full h-[500px]"
               allowFullScreen

@@ -1325,16 +1325,16 @@ export const contactData = [
   {
     icon: FaRegEnvelope,
     title: 'Email',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+    desc: 'hr@limesolutionco.com',
     contact: 'hr@limesolutionco.com',
     ref: 'mailto:hr@limesolutionco.com',
   },
   {
     icon: RiMapPinLine,
     title: 'Location',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+    desc: '62 Tran Quang Khai Street, Tan Dinh Ward, District 1, Ho Chi Minh City',
     contact: 'View on Google map',
-    ref: 'https://maps.app.goo.gl/fFdZG248rZkADWm4A',
+    ref: 'https://maps.app.goo.gl/tFngE2qSPPg4KsBaA',
   },
 ];
 export const courseDetail = [

@@ -9,11 +9,12 @@ export default function Contact(){
     const [modal , setModal] = useState(false);
     return(
         <>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2427860200783!2d106.69140187655817!3d10.792707989357023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175294f8901a4f5%3A0x308c9e4cbcc92102!2zNjIgxJAuIFRy4bqnbiBRdWFuZyBLaOG6o2ksIFBoxrDhu51uZyBUw6JuIMSQ4buLbmgsIFF14bqtbiAxLCBI4buTIENow60gTWluaCA3MDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1724995471192!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div className="container-fluid relative">
             <div className="grid grid-cols-1">
                 <div className="relative grayscale w-full leading-[0] border-0">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2427860200783!2d106.69140187655817!3d10.792707989357023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175294f8901a4f5%3A0x308c9e4cbcc92102!2zNjIgxJAuIFRy4bqnbiBRdWFuZyBLaOG6o2ksIFBoxrDhu51uZyBUw6JuIMSQ4buLbmgsIFF14bqtbiAxLCBI4buTIENow60gTWluaCA3MDAwMCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1724995471192!5m2!1sen!2s"
                         title="Google Maps Embed"
                         style={{ "border": "0" }}
                         className="w-full h-[500px]"
@@ -26,7 +27,7 @@ export default function Contact(){
                 </div>
             </div>
         </div>
-        {modal ? 
+        {modal ?
             <div id="contactModal" className="bg-gray-900 bg-opacity-50 dark:bg-opacity-80 fixed inset-0 z-40 flex items-center justify-center">
                 <div className="relative w-full h-auto max-w-md p-4">
                     <div className="relative bg-white dark:bg-slate-900 rounded-lg shadow dark:shadow-gray-800">
