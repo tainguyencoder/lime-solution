@@ -87,7 +87,7 @@ export default function Footer() {
                     </Link>
                     <p className="mt-6 text-gray-300">
                         Ho Chi Minh Office <br />
-                        62, Tran Quang Khai Street, Tan Dinh Ưard, District 1, Ho Chi
+                        62, Tran Quang Khai Street, Tan Dinh Ward, District 1, Ho Chi
                         Minh City <br/>
                         Email: hr@limesolutionco.com
                     </p>
