@@ -28,7 +28,10 @@ export default function Coworking() {
       <Head>
         <meta property="og:title" content="Lime Solution" />
         <meta property="og:description" content="Lime Solution" />
-        <meta property="og:image" content="https://res.cloudinary.com/dy1aove6a/image/upload/v1722849747/limesolution_jn72ub.png" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dy1aove6a/image/upload/v1722849747/limesolution_jn72ub.png"
+        />
         <meta property="og:url" content="https://limesolutionco.com/" />
         <meta property="og:type" content="website" />
       </Head>
@@ -62,14 +65,14 @@ export default function Coworking() {
               Lime Solution
             </h3>
             <h3 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5 text-white">
-              Vietnam&apos;s Leading Technology Partner
+              Your Partner in Digital Evolution
             </h3>
 
             <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-              One of the top IT firms in Vietnam, Lime Solution focuses on
-              offering software solutions and consulting services for digital
-              transformation to local enterprises in the entertainment,
-              e-commerce, and financial industries, as well as international.
+              Our IT software company transforms ideas into reality by
+              delivering innovative solutions that empower businesses to achieve
+              their digital goals and succeed in an ever-evolving technological
+              landscape.
             </p>
           </div>
         </div>
